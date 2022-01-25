@@ -74,12 +74,12 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-6">
-                        {{#str}} loggedin, message {{/str}}
-                        {{#onlinehelphtml}}{{{.}}}{{/onlinehelphtml}}
+                        <div class="upper-cell"> {{#str}} loggedin, message {{/str}} </div>
+                        <div class="lower-cell"> {{#onlinehelphtml}}{{{.}}}{{/onlinehelphtml}} </div>
                     </div>
                     <div class="col-6">
-                        {{#str}} loggedoff, message {{/str}}
-                        {{#offlinehelphtml}}{{{.}}}{{/offlinehelphtml}}
+                        <div class="upper-cell"> {{#str}} loggedoff, message {{/str}} </div>
+                        <div class="lower-cell"> {{#offlinehelphtml}}{{{.}}}{{/offlinehelphtml}} </div>
                     </div>
                 </div>
             </div>
